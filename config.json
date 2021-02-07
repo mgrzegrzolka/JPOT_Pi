@@ -1,0 +1,10 @@
+{
+  "config": {
+    "main_settings": {
+      "mysteryValueMin": 1000,
+      "mysteryValueMax": 1500,
+      "minBet": 100,
+      "restartValue": 200
+    }
+  }
+}
