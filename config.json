@@ -3,7 +3,7 @@
     "main_settings": {
       "mysteryValueMin": 1000,
       "mysteryValueMax": 1500,
-      "minBet": 100,
+      "minBet": 50,
       "restartValue": 200
     }
   }
