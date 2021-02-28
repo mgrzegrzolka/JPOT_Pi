@@ -90,9 +90,11 @@ class JpotInstance:
             min_bet = self.inst_config["minBet"]
             mystery_value_max = self.inst_config["mysteryValueMax"]
             prob_of_win = ((min_bet*100)/((mystery_value_max-self.jpValue) + min_bet))
-            print prob_of_win
+            print (prob_of_win)
             if random.randint(0, 100) < prob_of_win:
                 return 1
+
+
 jpot = JpotM()
 jpot.read_config_file()
 jpot.start_jp_cycle()
